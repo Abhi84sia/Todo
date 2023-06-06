@@ -4,6 +4,7 @@ const cors = require('cors');
 const Todo = require('./schema')
 
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 
